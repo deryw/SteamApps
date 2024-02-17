@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.header__logo{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
+.navbar-links{
+    list-style: none;
+    display: flex;
+}
+.navbar-links__item{
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 25px;
+}
+.header-navigation{
+    display: flex;    
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.section-popular-games{
+    background-color: white;
+    padding: 30px 0px;
+    color: black;
+}
+.header-popular-games{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.header-popular-games__item{
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+.header-popular-games img{
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.popular-games__title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.popular-games{
+    margin-top: 50px;
+}
+.header-popular-games__item-btn-show {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.main__title{
+    margin-top: 50px;
+    text-align: center;
+}
+.section-about-us__info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+.section-about-us__info img{
+    width: 600px;
+    height: 500px;
+    border-radius: 50px;
+}
+.section-about-us__info-text{
+    font-size: 25px;
+    text-align: justify;
+    margin-left: 20px;
+}
+.section-our-mission{
+    background-color: white;
+    color: black;
+}
+.line{
+    border-top: 2px solid black;
+    width: 300px;
+}
+.section-our-mission__main-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+.section-our-mission__main-info-text{
+    font-size: 25px;
+    text-align: justify;
+    margin-left: 20px;
+    padding: 0 50px;
+}
+.section-advantages__item{
+    font-size: 25px;
+    margin-left: 20px;
+    padding: 0 50px;
+}
+.section-advantages__number{
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-size: 50px;
+    padding: 10px;
+    width: 50px;
+    height: 100px;
+    border-radius: 10px;
+}
+.section-advantages__item{
+    display: flex;
+    align-items: center;
+}
+.section-advantages__text{
+    margin: 30px;
+}
+footer{
+    text-align: center;
+}
+.footer__info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__contacts{
+    margin: 0 50px;
+}
+.white-line{
+    width: 100px;
+    border-top: 2px white solid;
+}
+.content-right-column{
+    display: flex;
+    justify-content: left;
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    font-size: 25px;
+border: 5px;
+border-style:solid ;
+border-color:white ;
+} 
+.img-games{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+   
+}
+.img-game{ 
+max-width: 200px;
+
+}
+.infa__onas{
+    font-size: 25px;
+    text-align: center;
+}
+.footer__contacts{
+    font-size: 30px;
+    text-align: center;
+}
+.content-right-column{
+    display: flex;
+    justify-content: left;
+    color: black;
+    text-decoration: none;
+    text-align: left;
+    font-size: 25px;
+border: 5px;
+border-style:solid ;
+border-color:black ;
+} 
+
+div.content-right-column {
+    float: left;
+    width: 250px;
+}
+.text-decor{
+    display: flex;
+    justify-content: left;
+    color: black;
+    text-decoration: none;
+    text-align: left;
+    font-size: 25px;
+}
+.section-img{
+    display: flex;
+    color: black;
+justify-content: center;
+flex-wrap: wrap;
+
+}
+.section-img__game{
+    display: flex;
+    max-width: 400px;
+    border: 10px;
+    border-style:solid ;
+    border-color:white ;
+    /*padding: 15px;*/
+    margin: 15px;
+    background-color: gray;
+}
+.game-info{
+font-size: 20px;
+background-color: gray;
+padding: 10px;
+}
+.img-game{
+    max-width: 200px;
+}
+.game-info__name{
+    background-color: gray;
+}
+.section-games__row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
